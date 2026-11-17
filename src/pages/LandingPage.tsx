@@ -12,11 +12,10 @@ import { PHASE_NUTRITION_CONTENT } from '../../shared/nutritionData';
 import { BloomLogo } from '../components/BloomLogo';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
-
-const HERO_IMG = '/src/assets/images/hero_bloom_botanical_1794510229887.jpg';
-const TEA_IMG = '/src/assets/images/nutrition_rest_tea_1794510229839.jpg';
-const BOWL_IMG = '/src/assets/images/nutrition_renew_bowl_1794510228997.jpg';
-const JOURNAL_IMG = '/src/assets/images/privacy_journal_linen_1794510229698.jpg';
+import HERO_IMG from '../assets/images/hero_bloom_botanical_1794510229887.jpg';
+import TEA_IMG from '../assets/images/nutrition_rest_tea_1794510229839.jpg';
+import BOWL_IMG from '../assets/images/nutrition_renew_bowl_1794510228997.jpg';
+import JOURNAL_IMG from '../assets/images/privacy_journal_linen_1794510229698.jpg';
 
 const FAQS = [
   {
